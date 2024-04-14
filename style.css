@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    /* min-height: 100vh; */
+    /* background-color: black; */
+    display: flex;
+    position: relative;
+}
+
+.menu {
+    width: 20%;
+    height: 100vh;
+    background-color: #F44336;
+    position: sticky;
+    top: 0;
+    padding: 81px 28px;
+    gap: 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+ul li {
+    list-style: none;
+    cursor: pointer;
+    padding-left: 10px;
+    /* background-color: black; */
+}
+
+ul li:hover {
+    background-color: white;
+    color: black;
+}
+
+.menu .company-name h2 {
+    font-size: 36px;
+    padding-left: 10px;
+    font-weight: 600;
+}
+
+.menu .menu-item ul li {
+    font-size: 20px;
+    line-height: 2;
+    font-weight: 600;
+}
+
+.page {
+    width: 80%;
+    /* min-height: 110vh; */
+    /* background-color: yellow; */
+    padding: 0px 58px;
+    padding-top: 100px;
+}
+
+.page .page-1 {
+    width: 100%;
+    /* background-color: green; */
+    margin-bottom: 50px;
+}
+
+.page .page-1 h1 {
+    font-size: 82px;
+    font-weight: 500;
+}
+
+.page .page-1 h2 {
+    color: #F44336;
+    font-size: 72px;
+    font-weight: 200;
+}
+
+.page .line {
+    width: 66px;
+    height: 9px;
+    background-color: red;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.page .page-1 .images-box {
+    width: 100%;
+    /* background-color: blue; */
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    row-gap: 10px;
+    column-gap: 15px;
+}
+
+.page .page-1 .images-box .img1 img {
+    width: 35vw;
+}
+
+.page .page-1 .images-box .img2 img {
+    width: 35vw;
+}
+
+.page .page-1 .images-box .img3 img {
+    width: 35vw;
+    height: 38vh;
+}
+
+.page .page-1 .images-box .img4 img {
+    width: 35vw;
+    height: 38vh;
+}
+
+.page .page-1 .images-box .img5 img {
+    width: 35vw;
+    height: 38vh;
+}
+
+.page .page-1 .images-box .img6 img {
+    width: 35vw;
+    height: 38vh;
+}
+
+.page .page-2 {
+    width: 100%;
+    /* background-color: green; */
+    margin: 50px 0px;
+    /* background-color: black; */
+    ;
+}
+
+.page .page-2 h1 {
+    color: #F44336;
+    font-size: 65px;
+    font-weight: 200;
+}
+
+.page .page-2 .content {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.page .page-3 {
+    width: 100%;
+    /* background-color: green; */
+    margin: 50px 0px;
+    /* background-color: black; */
+}
+
+.page .page-3 h1 {
+    color: #F44336;
+    font-size: 65px;
+    font-weight: 200;
+}
+
+.page .page-3 .content {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.page .page-3 .content .card {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    /* background-color: blue; */
+}
+
+.page .page-3 .content .card .card1 {
+    width: 25vw;
+    background-color: #F1F1F1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.page .page-3 .content .card .card1 img {
+    width: 100%;
+    height: 60%;
+}
+
+.page .page-3 .content .card .card1 h3 {
+    font-size: 27px;
+    padding-left: 10px;
+    font-weight: 500;
+}
+
+.page .page-3 .content .card .card1 h4 {
+    font-size: 18px;
+    color: #898989;
+    font-weight: 100;
+    padding-left: 10px;
+
+}
+
+.page .page-3 .content .card .card1 p {
+    font-size: 21px;
+    padding-left: 10px;
+
+}
+
+.page .page-4 {
+    width: 100%;
+    /* background-color: green; */
+    margin: 50px 0px;
+    /* background-color: black; */
+}
+
+.page .page-4 h1 {
+    color: #F44336;
+    font-size: 65px;
+    font-weight: 200;
+}
+
+.page .page-4 .content {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.page .page-4 .content .box {
+    width: 100%;
+    /* background-color: #F44336; */
+    display: flex;
+    gap: 14px;
+}
+
+.page .page-4 .content .box .basic {
+    width: 50%;
+    text-align: center;
+    border: 0.5px solid rgb(180, 169, 169);
+}
+
+.page .page-4 .content .box .basic h1 {
+    color: white;
+    font-weight: 400;
+    font-size: 40px;
+    background-color: #616161;
+    padding: 22px 0px;
+}
+
+.page .page-4 .content .box .basic p {
+    border-bottom: 0.5px solid rgb(180, 169, 169);
+    background-color: #F1F1F1;
+    padding: 20px 0px;
+}
+
+.page .page-4 .content .box .basic button {
+    background-color: white;
+    border: none;
+    padding: 10px 12px;
+    /* margin: 15px 0px; */
+}
+
+.page .page-4 .content .box .basic button:hover {
+    color: white;
+    background-color: black;
+}
+
+.page .page-4 .content .box .pro {
+    width: 50%;
+    text-align: center;
+    border: 0.5px solid rgb(180, 169, 169);
+}
+
+.page .page-4 .content .box .pro h1 {
+    color: white;
+    font-weight: 400;
+    font-size: 40px;
+    background-color: #F44336;
+    padding: 22px 0px;
+}
+
+.page .page-4 .content .box .pro p {
+    border-bottom: 0.5px solid rgb(180, 169, 169);
+    background-color: #F1F1F1;
+    padding: 20px 0px;
+}
+
+.page .page-4 .content .box .pro button {
+    background-color: red;
+    border: none;
+    padding: 10px 12px;
+    color: white;
+    /* margin: 15px 0px; */
+}
+
+.page .page-4 .content .box .pro button:hover {
+    color: white;
+    background-color: black;
+}
+
+.page-5 input {
+    height: 40px;
+    padding: 10px;
+    margin: 0;
+}
+
+.page-5 button {
+    height: 40px;
+    padding: 10px;
+    margin: 0;
+    background-color: red;
+    color: white;
+    border: none;
+}
+.page-5 button:hover{
+    background-color: #CCCCCC;
+    color: black;
+    cursor: pointer;
+}
